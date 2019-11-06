@@ -6,5 +6,6 @@ services:
     restart: always
     environment:
       POSTGRES_PASSWORD: example
+      POSTGRES_DB: relay
     ports: 
       - 5432:5432
